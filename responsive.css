@@ -6,7 +6,7 @@
   width: 100%;
 }
   .menu-icon {
-    display: none;
+    display: none !important;
   }
   .team {
     width: 50%;
@@ -20,7 +20,7 @@
     display: none;
   }
   .menu-icon {
-    display: block;
+    display: block !important;
   }
   .main-content h1{
     letter-spacing: 3px;
