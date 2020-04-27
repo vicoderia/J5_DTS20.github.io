@@ -75,7 +75,7 @@ header {
 .header-menu a{
   line-height: 44px;
   padding: 10px 25px;
-  color: black;
+  color: #000;
   display: block;
   float: left;
   transition: all 0.5s;
@@ -90,7 +90,7 @@ header {
   margin-right: 5px;
 }
 .menu-icon {
-  color: black;
+  color: #000;
   float: right;
   font-size: 25px;
   padding: 21px 0px;
