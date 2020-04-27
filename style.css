@@ -94,7 +94,7 @@ header {
   float: right;
   font-size: 25px;
   padding: 21px 0px;
-  display: none;
+  display: none !important;
 }
 .main-content {
   padding: 180px 0 180px 0;
