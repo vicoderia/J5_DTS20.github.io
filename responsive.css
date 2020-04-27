@@ -1,0 +1,123 @@
+/* CSS Document */
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+.container {
+  width: 100%;
+}
+  .menu-icon {
+    display: none;
+  }
+  .team {
+    width: 50%;
+    text-align: center;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .header-menu {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .main-content h1{
+    letter-spacing: 3px;
+    font-size: 22px;
+    color: #fff;
+    margin-top: 25px;
+  }
+  
+  .main-content h1 span {
+    color: #f4c623;
+    border-bottom: 3px solid #f4f4f4;
+  }
+  
+  .desc-project {
+    padding-top: 10px;
+    font-size: 11px;
+    color:#c0c0c0;
+    font-weight: 400;
+    letter-spacing: 3px;
+  }
+  .heading {
+    width: 100%;
+}
+
+.heading p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.heading img {
+  height: 200px;
+}
+
+.heading h2 {
+    font-size: 40px;
+}
+
+.heading sup {
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 10px
+}
+.konten {
+    text-align: left;
+}
+.team-wrapper {
+  padding: 180px 0 180px 0;
+  background-color: #f4f4f4;
+  padding: 30px 0;
+}
+.team {
+  width: 50%;
+  text-align: center;
+}
+
+.team-member img {
+  padding-top: 20px;
+  height: 150px;
+  border-radius: 50%;
+}
+.extra-2 {
+  padding: 30px 0px;
+  background-color: #f4c623;
+}
+.section-title {
+  color: #000;
+}
+.extra-2 p {
+  margin:auto;
+  color: #000;
+}
+.section-title {
+  font-size:26px;
+}
+input, textarea {
+  width:200px;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding:10px;
+  font-size:13px;
+  border:1px solid #dee7ec;
+  border-radius:10px;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.6;
+  border-radius: 10px;
+}
+.btn:hover {
+  opacity: 1;
+}
+.send {
+  background-color: #FC6600;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+}

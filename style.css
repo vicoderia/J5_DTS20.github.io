@@ -1,0 +1,240 @@
+/* =========================================
+    Colors:
+        Moon Yellow     #f4c623
+        Grey            #212226
+        White Smoke     #f4f4f4
+        White           #fff
+        Black           #000
+        Orange          #f7be1e
+    
+    Fonts = Raleway, Open Sans
+=========================================== */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');
+/* ========================================
+                Default Setup
+===========================================*/
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+/* ========================================
+              NavBar & Header
+===========================================*/
+
+header {
+  height: 65px;
+  background-color: #f4f4f4;
+  width: 100%;
+  box-shadow: 0px 5px #c0c0c0;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+.header-wrapper {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header-logo {
+  float: left;
+}
+.logo {
+  height: 50px;
+  margin: 5px 0px;
+}
+.header-menu{
+  float: right;
+  margin-right: -25px;
+}
+.header-menu a{
+  line-height: 44px;
+  padding: 10px 25px;
+  color: black;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+.header-menu a:hover {
+  background-color: rgba(255, 195, 0, 0.9);
+  font-weight: bold;
+  color:#000;
+  box-shadow: 0px 10px #785002;
+}
+.menu-icon {
+  color: black;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0px;
+  display: none !important;
+}
+.main-content {
+  padding: 180px 0 180px 0;
+  background-image:url(asset/BG3.png);
+  background-size: cover;
+}
+.main-content h1{
+  letter-spacing: 5px;
+  font-size: 64px;
+  color: #fff;
+}
+
+.main-content h1 span {
+  color: #f4c623;
+  border-bottom: 5px solid #f4f4f4;
+  padding-bottom: 15px;
+}
+
+.desc-project {
+  margin-top: 25px;
+  font-size: 16px;
+  color:#c0c0c0;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+/* ========================================
+              EXTRAS 1 
+===========================================*/
+
+.heading {
+    width: 50%;
+    float: left;
+}
+
+.heading p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.heading img {
+  height: 429.5px;
+}
+
+.heading h2 {
+    font-size: 40px;
+}
+
+.heading sup {
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 10px
+}
+.konten {
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.team-wrapper {
+  padding: 180px 0 180px 0;
+  background-color: #f4f4f4;
+  padding: 30px 0;
+}
+
+.team {
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+
+.team-member img {
+  padding-top: 20px;
+  height: 200px;
+  border-radius: 50%;
+  padding-bottom: 20px;
+}
+
+.team-head {
+  text-align: center;
+  color: #f4c623;
+  padding: 20px 0px;
+}
+
+/* ========================================
+              EXTRAS 2 
+===========================================*/
+
+.extra-2 {
+  padding: 50px 0px;
+  background-color: #f4c623;
+}
+.section-title {
+  color: #000;
+}
+.extra-2 p {
+  margin:auto;
+  color: #000;
+}
+.section-title {
+  font-size:26px;
+  padding-bottom: 30px;
+}
+input, textarea {
+  width:200px;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding:10px;
+  font-size:13px;
+  border:1px solid #dee7ec;
+  border-radius:10px;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.6;
+  border-radius: 10px;
+}
+.btn:hover {
+  opacity: 1;
+}
+.send {
+  background-color: #FC6600;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+/* ========================================
+                FOOTER
+===========================================*/
+footer {
+	text-align: center; /*Tulisan Ditengah*/
+  height:75px;
+  line-height:50px;    
+  background-color: #f4f4f4;
+  bottom:0px;
+  width:100%; /*biar memenuhi layar*/
+}
+
+.footer-logo
+{
+  text-align: center;
+  color: black; 
+  font-size: 17px;
+  padding: 10px 38px;
+}
