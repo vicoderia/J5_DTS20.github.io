@@ -1,7 +1,7 @@
 /* CSS Document */
 
 /* Untuk Tablet */
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1170px) {
 .container {
   width: 100%;
 }
@@ -12,6 +12,32 @@
     width: 50%;
     text-align: center;
   }
+  .main-content h1{
+    letter-spacing: 3px;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 25px;
+  }
+
+.konten p {
+  font-size: 15px;
+}
+  
+  .main-content h1 span {
+    color: #f4c623;
+    border-bottom: 3px solid #f4f4f4;
+  }
+  
+  .desc-project {
+    padding-top: 10px;
+    font-size: 11px;
+    color:#c0c0c0;
+    font-weight: 400;
+    letter-spacing: 3px;
+  }
+  .heading img {
+  height: 250px;
+}
 }
 
 /* Untuk Smartphone */
@@ -24,7 +50,7 @@
   }
   .main-content h1{
     letter-spacing: 3px;
-    font-size: 22px;
+    font-size: 20px;
     color: #fff;
     margin-top: 25px;
   }
@@ -48,6 +74,10 @@
 .heading p {
     font-size: 20px;
     font-weight: 500;
+}
+
+.konten p {
+  font-size: 15px;
 }
 
 .heading img {
