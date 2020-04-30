@@ -1,7 +1,7 @@
 /* CSS Document */
 
 /* Untuk Tablet */
-@media all and (max-width: 1170px) {
+@media all and (max-width: 1000px) {
 .container {
   width: 100%;
 }
